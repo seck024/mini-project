@@ -1,5 +1,6 @@
 <?php
-require_once "models/CategoryManager.php";
+require_once __DIR__ . '/../models/CategoryManager.php';
+
 
 class CategoryController {
     private $categoryManager;

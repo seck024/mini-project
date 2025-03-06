@@ -1,5 +1,6 @@
 <?php
-require_once "models/PrestationManager.php";
+require_once __DIR__ . '/../models/PrestationManager.php';
+
 
 class PrestationController {
     private $prestationManager;

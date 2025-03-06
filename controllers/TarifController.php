@@ -1,5 +1,6 @@
 <?php
-require_once "models/TarifManager.php";
+require_once __DIR__ . '/../models/TarifManager.php';
+
 
 class TarifController {
     private $tarifManager;
